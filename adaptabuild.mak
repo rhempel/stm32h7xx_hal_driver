@@ -159,7 +159,7 @@ $(MODULE)_SRCPATH += $(MODULE_PATH)/Src
 $(MODULE)_INCPATH :=
 $(MODULE)_INCPATH += $(MODULE_PATH)/Inc
 $(MODULE)_INCPATH += $(cmsis_core_PATH)/Include
-$(MODULE)_INCPATH += $(cmsis_device_h7_PATH)Include
+$(MODULE)_INCPATH += $(cmsis_device_h7_PATH)/Include
 
 # ----------------------------------------------------------------------------
 # NOTE: The default HAL config file must be created somehow - it is normally
