@@ -162,11 +162,6 @@ $(MODULE)_INCPATH += $(cmsis_core_PATH)/Include
 $(MODULE)_INCPATH += $(cmsis_device_h7_PATH)/Include
 
 # ----------------------------------------------------------------------------
-# The stm32h7 HAL file needs math.h
-
-$(MODULE)_INCPATH += $(umm_libc_PATH)/include
-
-# ----------------------------------------------------------------------------
 # NOTE: The default HAL config file must be created somehow - it is normally
 #       up to the developer to specify which HAL elements are needed and how
 #       they are to be configured.
